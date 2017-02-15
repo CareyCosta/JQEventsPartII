@@ -2,8 +2,8 @@
 
 ## Complete these steps to create a signin prototype:
 
-1. When the user clicks the `.signin` button, `display` (or fade in) the `.modal` window
-2. When the user clicks the `.close` button, `display` (or fade out) out the `.modal` window
+// 1. When the user clicks the `.signin` button, `display` (or fade in) the `.modal` window
+// 2. When the user clicks the `.close` button, `display` (or fade out) out the `.modal` window
 3. When the user clicks the `.submit` button, add an `.error` class to both `<input>` elements
 4. When the user puts their cursor in one of the input fields, remove the `.error` class from both input elements
 5. Now only remove the `.error` class from an individual `<input>` when the cursor enters it
