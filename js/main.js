@@ -7,5 +7,10 @@ $(document).ready(function() {
   });
   $('.submit').on('click', function(){
     $('input').addClass('.error');
+    $('input').attr('placeholder', 'please enter information');
+  });
+  $('input').hover(function(){
+    $('input').removeAttr('class');
+    $('input').removeAttr('placeholder');
   });
 });
