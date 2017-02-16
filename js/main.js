@@ -1,4 +1,6 @@
 $(document).ready(function() {
+  // $('.modal').on('click', function() {
+  //   $('.modal').clone('.modal');
   $('.signin').on('click', function(){
     $('.modal').fadeIn('slow');
   });
